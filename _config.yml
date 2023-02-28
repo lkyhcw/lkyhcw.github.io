@@ -1,0 +1,85 @@
+# Site Info
+title: hanvandosky
+tagline: '한반도스카이'
+description: '안녕하세요.'
+baseurl: ""
+# url: https://jhh9232.github.io
+url: https://sky.iasdf.com
+logo: '/public/logo.png'
+#logo: '/public/img/ib_logo.jpg'
+
+# Site configurations
+plugins:
+#   - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+# paginate: 8
+# paginate_path: '/page:num'
+# permalink: pretty
+# permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:path
+
+version: 1.0.0
+
+# special_categories: [ algorithm ]
+# special_tags: [ ]
+
+
+# About/contact
+author:
+  name: 한반도스카이
+  description: 방문해주셔서 감사합니다.
+  # gravatar: 9389f68b78da611afe3ebd721a00ba95 # md5 hash of your email address
+  contact:
+    # linkedin:  https://www.linkedin.com/
+    github:    https://github.com/lkyhcw
+    # facebook:  <hide>
+    # twitter:   https://twitter.com/
+    # weibo:     <hide>
+    email:     lkyhcw@naver.com
+
+exclude:
+  - .gitkeep
+  - start.sh
+  - README.md
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  #   - { Categories: '/categories' }
+  #   - { Tags: '/tags' }
+  # About:
+  #   - '/about'
+  # Github Project:
+  #   # - 'https://jhh9232.github.io/'
+  #   - 'https://github.com/jhh9232'
+  #   # - '/gitproj'
+
+# Where are tags and categories displayed
+# tag_page: '/tags'
+# category_page: '/categories'
+
+# hero:
+#   image: /public/img/we_will_be_giants_by_yalestewart.jpg
+#   caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+#mathjax: true # whether support mathjax
+#google_analytics_token: '' # leave blank if you don't want google analytics
+# disqus_short_name: 'dev-iasdf-com' # leave blank if you don't want disqus
+# utterances_repo: 'jhh9232/comments' # github utterances
+# comments: true
+
+# Tipue search settings
+# tipue_search:
+#   include:
+#     pages: true
+#     collections: [ wiki ]
+#   exclude:
+#     files: [ 0001-01-01-testtest, index.html, search.html, categories.html, tags.html]

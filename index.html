@@ -1,1 +1,137 @@
-<h1>Hello</h1>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>한반도 스카이</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobile_menu.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/style.js"></script>
+        <script type="text/javascript" src="js/slickslide.js"></script>
+
+        <!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 --> 
+        <script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script> 
+        <script type="text/javascript"> 
+            if (!wcs_add) var wcs_add={};
+            wcs_add["wa"] = "s_568be22e41ab";
+            if (!_nasa) var _nasa={};
+            wcs.inflow();
+            wcs_do(_nasa);
+        </script>
+    </head>
+    <body class="center">
+        <div>
+            <h5 id="overview" style="display: none"><%= code %></h5>
+            <section>
+                <!--메뉴전체 판넬 -->
+                <div class="content">
+                    <div class="inline_inside">
+                        <div class="fixed-color">
+                            <nav role="navigation" class="mobile_nav">
+                                <div id="menuToggle">
+                                    <input type="checkbox" />
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <ul id="menu">
+                                        <li><a href="/"><p class="menutext">홈</p></a></li>
+                                        <!-- <li><a href="javascript:ready_this()"><p class="menutext">게시판</p></a></li> -->
+                                        <li><a href="https://blog.naver.com/lkyhcw"><p class="menutext">블로그</p></a></li>
+                                        <li><a href="tel:010-8588-0045"><p class="menutext">전화하기</p></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="navhead">
+                                <a class="a_none" href="/">
+                                    <p class="font_40 headmargin">한반도 스카이</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="tel:010-8588-0045">
+                    <div class="slick-items">
+                        <!-- <div class="thumbnail-wrapper">
+                            <div class="thumbnail">
+                                <div class="centered">
+                                    <img src="img/work7.jpg">
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class = "imgoffset"><img class="imgslide" src="img/header.jpg" alt=""></div></img></div> -->
+                        <div id = "headerimg1" class = "imgoffsets1">
+                            <div class="imgcontent">
+                                <p class="font">한반도 스카이를 찾아주셔서</p>
+                                <p class="font">진심으로 감사드립니다</p>
+                                <p class="font_30">사진을 누르시면 통화가 시작됩니다</p>
+                            </div>
+                            <div class="img-cover"></div>
+                        </div>
+                        <div id = "headerimg2" class = "imgoffsets2">
+                            <div class="imgcontent">
+                                <p class="font">한반도 스카이를 찾아주셔서</p>
+                                <p class="font">진심으로 감사드립니다</p>
+                                <p class="font_30">사진을 누르시면 통화가 시작됩니다</p>
+                            </div>
+                            <div class="img-cover"></div>
+                        </div>
+                        <div id = "headerimg3" class = "imgoffsets3">
+                            <div class="imgcontent">
+                                <p class="font">한반도 스카이를 찾아주셔서</p>
+                                <p class="font">진심으로 감사드립니다</p>
+                                <p class="font_30">사진을 누르시면 통화가 시작됩니다</p>
+                            </div>
+                            <div class="img-cover"></div>
+                        </div>
+                        <!-- <div class = "imgoffset"><img class="imgslide" src="img/gaji.png" alt=""></img></div> -->
+                        <!-- <div class = "imgoffset"><img class="imgslide" src="img/work7.jpg" alt=""></img></div> -->
+                    </div>
+                </a>
+                </div>
+            </section>
+
+            <section>
+                <div style="margin-top: 100px;"></div>
+                    <p class="maintext font_main_phasize">스카이차 최저가 대여</p>
+                    <p class="maintext font_main">다양한 작업 가능</p>
+                    <p class="maintext font_main">1t, 2t, 3.5t, 5t 등</p>
+                    <p class="maintext font_main">여러 종류의 스카이차 보유</p>
+                    <p class="maintext font_main">24시간 친절상담</p>
+                    <p class="maintext font_main_phasize">010 - 8588 - 0045</p>
+                    <p class="maintext font_main">부담없이 견적문의 주세요~</p>
+                    <p class="maintext font_main">신속하고 안전하고 정확하게!</p>
+                </div>
+            </section>
+
+            <section>
+                <div style="margin-top: 100px;">
+                    <img class="inform_car" src="img/banner2.png">
+                </div>
+            </section>
+
+            <section>
+                <div style="margin-top: 100px;">
+                    <a href="https://blog.naver.com/lkyhcw">
+                        <p class="maintext font_main">한반도 스카이 둘러보기 (블로그)</p>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="footerdiv">
+                <div style="padding-top: 15px;">
+                    <p class="footer_font">상호명 : 한반도 스카이</p>
+                    <p class="footer_font">대표자 : 이 귀 연</p>
+                    <p class="footer_font">사업자등록번호 : 303-19-93716</p>
+                    <p class="footer_font">주소 : 서울특별시 구로구 온수동 45-32 / 서울특별시 경인로 15-7</p>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+    
+</html>

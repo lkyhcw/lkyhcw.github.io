@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Jua-Regular';
+    src: url(../font/Jua-Regular.eot); /*익스플로러*/
+    src: url(../font/Jua-Regular.woff) format('woff');
+    src: url(../font/Jua-Regular.ttf) format('truetype');
+    src:local(※), url(../font/Jua-Regular.woff ) format('woff'); 
+}
+.font_40 {
+    font-family: 'Jua-Regular';
+    font-size:40px;
+    color:white;
+}
+
+.font_60 {
+    font-family: 'Jua-Regular';
+    font-size:60px;
+    color:white;
+}
+
+.font_30 {
+    font-family: 'Jua-Regular';
+    font-size:30px;
+    color:white;
+}
+
+.font {
+    font-family: 'Jua-Regular';
+    color:white;
+}
+
+.font_main {
+    font-family: 'Jua-Regular';
+    font-size:60px;
+}
+.font_main_phasize {
+    font-family: 'Jua-Regular';
+    font-size:60px;
+    color:red;
+}
+
+.footer_font {
+    font-family: '맑은고딕';
+    margin-top: 5px;
+    font-size: 1em;
+    color: white;
+}
+@media screen and (max-width: 990px) {
+    .footer_font {
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+}

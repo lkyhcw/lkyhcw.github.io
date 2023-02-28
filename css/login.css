@@ -1,0 +1,20 @@
+body, html {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.titleh1 {
+    margin-top : 50px;
+}
+
+.login_input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.login_button {
+    margin-top : 5px;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+}
